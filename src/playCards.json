@@ -1,0 +1,107 @@
+[
+    {
+        "cardImage": "./images/arya.jpg",
+  
+        "id": 1,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/bran.jpg",
+  
+        "id": 2,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/brienne.jpg",
+  
+        "id": 3,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/cersei.png",
+  
+        "id": 4,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/daenerys.jpg",
+  
+        "id": 5,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/jaime.jpg",
+  
+        "id": 6,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/jonsnow.jpeg",
+  
+        "id": 7,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/jorah.jpg",
+  
+        "id": 8,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/sansa.jpg",
+  
+        "id": 9,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/thehound.jpg",
+  
+        "id": 10,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/tyrion.jpg",
+  
+        "id": 11,
+        
+        "clicked": false
+    },
+    {
+        "cardImage": "./images/whitewalker.png",
+  
+        "id": 12,
+        
+        "clicked": false
+    },
+    {
+      "cardImage": "./images/davos.png",
+  
+      "id": 13,
+      
+      "clicked": false
+    },
+    {
+      "cardImage": "./images/melisandre.jpg",
+  
+      "id": 14,
+      
+      "clicked": false
+    },
+    {
+      "cardImage": "./images/tormund.jpg",
+  
+      "id": 15,
+      
+      "clicked": false
+    }
+]
