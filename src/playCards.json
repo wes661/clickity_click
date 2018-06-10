@@ -3,105 +3,120 @@
         "cardImage": "./images/arya.jpg",
   
         "id": 1,
-        
-        "clicked": false
+
+        "name": "Arya Stark"
+
     },
     {
         "cardImage": "./images/bran.jpg",
   
         "id": 2,
-        
-        "clicked": false
+
+        "name": "Bran Stark"
+
     },
     {
         "cardImage": "./images/brienne.jpg",
   
         "id": 3,
-        
-        "clicked": false
+
+        "name": "Brienne of Tarth"
+
     },
     {
         "cardImage": "./images/cersei.png",
   
         "id": 4,
-        
-        "clicked": false
+
+        "name": "Cersei Lannister"
+
     },
     {
         "cardImage": "./images/daenerys.jpg",
   
         "id": 5,
-        
-        "clicked": false
+
+        "name": "Daenerys Targaryen"
+
     },
     {
         "cardImage": "./images/jaime.jpg",
   
         "id": 6,
-        
-        "clicked": false
+
+        "name": "Jaimie Lannister" 
+
     },
     {
         "cardImage": "./images/jonsnow.jpeg",
   
         "id": 7,
-        
-        "clicked": false
+
+        "name": "Jon Snow"
+
     },
     {
         "cardImage": "./images/jorah.jpg",
   
         "id": 8,
-        
-        "clicked": false
+
+        "name": "Jorah Mormont"
+
     },
     {
         "cardImage": "./images/sansa.jpg",
   
         "id": 9,
-        
-        "clicked": false
+
+        "name": "Sansa Stark"
+
     },
     {
         "cardImage": "./images/thehound.jpg",
   
         "id": 10,
-        
-        "clicked": false
+
+        "name": "Sandor Clegane aka The Hound"
+
     },
     {
         "cardImage": "./images/tyrion.jpg",
   
         "id": 11,
-        
-        "clicked": false
+
+        "name": "Tyrion Lannister"
+
     },
     {
         "cardImage": "./images/whitewalker.png",
   
         "id": 12,
-        
-        "clicked": false
+
+        "name": "Night King" 
+
     },
     {
-      "cardImage": "./images/davos.png",
+        "cardImage": "./images/davos.png",
   
-      "id": 13,
-      
-      "clicked": false
+        "id": 13,
+
+        "name": "Davos Seaworth"
+
     },
     {
-      "cardImage": "./images/melisandre.jpg",
+        "cardImage": "./images/melisandre.jpg",
   
-      "id": 14,
-      
-      "clicked": false
+        "id": 14,
+
+        "name": "Melisandre"
+
     },
     {
-      "cardImage": "./images/tormund.jpg",
+        "cardImage": "./images/tormund.jpg",
   
-      "id": 15,
-      
-      "clicked": false
+        "id": 15,
+
+        "name": "Tormund Giantsbane"
+
     }
 ]

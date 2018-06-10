@@ -11,7 +11,7 @@ const styles = {
 }
 
 const Cards = props => (
-            <img style={styles.image} className='img-fluid col-md-2 col-3' src={props.cardImage} id={props.id} onClick={props.checkClicked}/> 
+    <img style={styles.image} className='img-fluid col-md-2 col-3' src={props.cardImage} id={props.id} name={props.name} onClick={props.checkClicked}/> 
   );
 
 
