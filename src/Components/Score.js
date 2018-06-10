@@ -8,14 +8,10 @@ class Score extends Component {
         }
     }
 
-    state = {
-        score: 0
-    };
-
     render() {
         return(
             <div>
-                <center><h3 style={this.styles.font}>Score:{this.state.score}</h3></center>
+                <center><h3 style={this.styles.font}>Score:{this.props.score}</h3></center>
             </div>
         );
     };

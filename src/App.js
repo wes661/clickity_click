@@ -10,8 +10,29 @@ import './App.css';
 class App extends Component {
 
     state = {
-        playCards
+        playCards,
+        score: 0,
+        clicked: []
     };
+
+    checkClicked = (e) => {
+        const cardId = e.target.id
+        if(this.state.clicked.includes(cardId)){
+           this.setState({
+               score: 0,
+               clicked: []
+           })
+        }
+        else{
+            const clickedArray = this.state.clicked
+            clickedArray.push(cardId)
+            this.setState({ score: this.state.score + 1,
+            clicked: clickedArray})
+               
+            
+        }
+        this.shuffleCards(); 
+    }
 
     shuffleCards = () => {
         const cards = this.state.playCards;
@@ -32,7 +53,9 @@ class App extends Component {
                         <Title />
                     </div> 
                     <div className='col-6'>            
-                        <Score />
+                        <Score
+                            score={this.state.score}
+                        />
                     </div> 
                  </div>    
                 <div className='row'>
@@ -42,7 +65,9 @@ class App extends Component {
                                 id={card.id}
                                 key={card.id}
                                 cardImage={card.cardImage}
+                                clicked={card.clicked}
                                 shuffle={this.shuffleCards}
+                                checkClicked={this.checkClicked}
                             />
                         ))}
                     </div>
