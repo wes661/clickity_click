@@ -1,3 +1,7 @@
 body{
-    background-color: rgb(235, 241, 241);
+    background-color: rgb(176, 192, 192);
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }

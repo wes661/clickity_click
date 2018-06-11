@@ -4,6 +4,7 @@ import Score from './Components/Score';
 import Title from './Components/Title';
 import playCards from "./playCards.json";
 import './App.css';
+// import Example from './Components/Modal'
 
 
 
@@ -12,16 +13,14 @@ class App extends Component {
     state = {
         playCards,
         score: 0,
-        clicked: [],
+        clicked: []
     };
 
     checkClicked = (e) => {
         const cardName = e.target.name
         const cardId = e.target.id
-        const cardClass = e.target.class
         if(this.state.clicked.includes(cardId)){ 
-           alert(`You've already selected ${cardName}
-            Game restarting...`)
+           alert(`You've already selected ${cardName}\n\nGame restarting...`)
            this.setState({
                score: 0,
                clicked: [],
@@ -37,7 +36,7 @@ class App extends Component {
                 clicked: clickedArray
             })
 
-            if(this.state.score == 14){
+            if(this.state.score === 14){
                 alert('You Won! Your memory is impecible!');
                 this.setState({
                     score: 0,

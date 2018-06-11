@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-import Score from './Score';
+
 
 class Title extends Component {
 
     styles = {
         font: {
-            fontFamily: 'Alfa Slab One'
+            fontFamily: 'Alfa Slab One',
+            color: 'White',
+            stroke: "black"
         }
     }
 
     render() {
         return(
             <div>
-                <h4 className="animated fadeInLeft" style={this.styles.font}>G-o-T Memory</h4>
+                <h2 className="animated fadeInLeft" style={this.styles.font}>G-o-T Memory</h2>
             </div>
         );
     };

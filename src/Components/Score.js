@@ -4,7 +4,9 @@ class Score extends Component {
 
     styles = {
         font: {
-            fontFamily: 'Alfa Slab One'
+            fontFamily: 'Alfa Slab One',
+            color: "white",
+            stroke: "black"
         }
     }
 
@@ -12,7 +14,7 @@ class Score extends Component {
         return(
             <div>
                 <center>
-                    <h5 className='animated fadeInRight' style={this.styles.font}>Score:{this.props.score}</h5>
+                    <h3 className='animated fadeInRight' style={this.styles.font}>Score:{this.props.score}</h3>
                 </center>
             </div>
         );
