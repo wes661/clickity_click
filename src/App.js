@@ -75,7 +75,7 @@ class App extends Component {
                     </div> 
                  </div>    
                 <div className='row'>
-                    <div className="col-12 animated slideInUp">
+                    <div className="col-12 animated fadeInUp">
                         {this.state.playCards.map(card => (
                             <Cards
                                 id={card.id}
