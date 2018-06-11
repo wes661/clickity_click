@@ -21,7 +21,7 @@ class App extends Component {
         const cardClass = e.target.class
         if(this.state.clicked.includes(cardId)){ 
            alert(`You've already selected ${cardName}
-Game restarting...`)
+            Game restarting...`)
            this.setState({
                score: 0,
                clicked: [],
@@ -32,8 +32,11 @@ Game restarting...`)
         else{
             const clickedArray = this.state.clicked
             clickedArray.push(cardId)
-            this.setState({ score: this.state.score + 1,
-            clicked: clickedArray})
+            this.setState({ 
+                score: this.state.score + 1,
+                clicked: clickedArray
+            })
+
             if(this.state.score == 14){
                 alert('You Won! Your memory is impecible!');
                 this.setState({
@@ -62,17 +65,17 @@ Game restarting...`)
         return (
             <div className='container'>
                 <div className='row'>
-                    <div className='col-6'>            
+                    <div className='col-8'>            
                         <Title />
                     </div> 
-                    <div className='col-6'>            
+                    <div className='col-4'>            
                         <Score
                             score={this.state.score}
                         />
                     </div> 
                  </div>    
                 <div className='row'>
-                    <div className="col-12 animated fadeInUp">
+                    <div className="col-12 animated slideInUp">
                         {this.state.playCards.map(card => (
                             <Cards
                                 id={card.id}
