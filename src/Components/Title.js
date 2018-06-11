@@ -12,7 +12,7 @@ class Title extends Component {
     render() {
         return(
             <div>
-                <center><h3 className="animated fadeInLeft" style={this.styles.font}>Game Of Thrones Memory</h3></center>
+                <center><h3 className="animated fadeInLeft" style={this.styles.font}>G-o-T Memory</h3></center>
             </div>
         );
     };
