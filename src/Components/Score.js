@@ -11,7 +11,7 @@ class Score extends Component {
     render() {
         return(
             <div>
-                <center><h3 className='animated fadeInRight' style={this.styles.font}>Score:{this.props.score}</h3></center>
+                <center><h5 className='animated fadeInRight' style={this.styles.font}>Score:{this.props.score}</h5></center>
             </div>
         );
     };

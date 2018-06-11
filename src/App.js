@@ -65,10 +65,12 @@ class App extends Component {
         return (
             <div className='container'>
                 <div className='row'>
-                    <div className='col-8'>            
+                    <div className='col-12'>            
                         <Title />
                     </div> 
-                    <div className='col-4'>            
+                </div>       
+                <div className='row'> 
+                    <div className='col-12'>            
                         <Score
                             score={this.state.score}
                         />
